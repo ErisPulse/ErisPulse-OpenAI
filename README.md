@@ -2,10 +2,7 @@
 
 # 在env.py填入下面这段
 
-
-
-
-   sdk.env.set("OpenAI", {
+sdk.env.set("OpenAI", {
 
     "base_url": "这里写AI提供商给的AI对话地址",
     
