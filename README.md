@@ -1,6 +1,6 @@
 # 先安装这个OpenAI模块
 
-# 在env.py填入下面这段
+# 在env.py最后一行填入下面这段
 
 sdk.env.set("OpenAI", {
 
