@@ -7,7 +7,7 @@ class Main:
     def __init__(self, sdk):
         self.sdk = sdk
         self.logger = sdk.logger
-        self.openai_config = self._getConfig
+        self.openai_config = self._getConfig()
         if self.openai_config is None:
             return
         
