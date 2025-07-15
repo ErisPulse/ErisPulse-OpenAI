@@ -21,6 +21,11 @@ class Main:
 
         self.client = AsyncOpenAI(api_key=self.token, base_url=self.base_url)
         self.logger.info("OpenAI 模块已初始化")
+    
+    @staticmethod
+    def should_eager_load() -> bool:
+        return True
+    
     def _getConfig(self):
         config = self.sdk.env.getConfig("OpenAI")
         if config is None:
@@ -36,6 +41,7 @@ class Main:
             self.logger.info("请配置 OpenAI 后再使用本模块")
             return None
         return config
+    
     async def chat(self, messages: List[Dict[str, str]], model: Optional[str] = None,
                 stream: bool = False, stream_handler: Optional[Callable] = None, **kwargs) -> str:
         final_model = model or self.model
