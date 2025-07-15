@@ -1,0 +1,18 @@
+[project]
+name = "ErisPulse-OpenAI"
+version = "2.1.0"
+description = "ErisPulse OpenAI 通用接口封装模块"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [ { name = "wsu2059q", email = "wsu2059@qq.com" } ]
+dependencies = [
+    "openai"
+]
+
+
+[project.urls]
+"homepage" = "https://github.com/ErisPulse/ErisPulse-OpenAI"
+
+[project.entry-points]
+"erispulse.module" = { "OpenAI" = "OpenAI:Main" }
