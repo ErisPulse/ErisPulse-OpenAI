@@ -15,4 +15,4 @@ dependencies = [
 "homepage" = "https://github.com/ErisPulse/ErisPulse-OpenAI"
 
 [project.entry-points]
-"erispulse.module" = { "OpenAI" = "OpenAI:Main" }
+"erispulse.module" = { "OpenAI" = "ErisPulse_OpenAI:Main" }
