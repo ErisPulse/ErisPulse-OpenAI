@@ -62,18 +62,7 @@ response = await openai.chat(
 - 返回: AsyncGenerator[str, None] - 流式响应生成器
 
 ## 配置说明
-模块会自动从环境配置中读取 OpenAI 配置，如果没有配置会自动创建默认配置模板：
-```json
-{
-    "base_url": "",
-    "key": "",
-    "model": "",
-    "Args": {
-        "temperature": 0.7,
-        "max_tokens": 1024
-    }
-}
-```
+需要在项目的 `config.toml` 中配置OpenAI相关参数
 
 ## 参考链接
 - [ErisPulse 主库](https://github.com/ErisPulse/ErisPulse/)
