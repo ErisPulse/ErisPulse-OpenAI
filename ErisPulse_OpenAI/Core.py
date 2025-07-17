@@ -22,10 +22,6 @@ class Main:
         self.client = AsyncOpenAI(api_key=self.token, base_url=self.base_url)
         self.logger.info("OpenAI 模块已初始化")
     
-    @staticmethod
-    def should_eager_load() -> bool:
-        return True
-    
     def _getConfig(self):
         config = self.sdk.env.getConfig("OpenAI")
         if config is None:
