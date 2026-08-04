@@ -1,4 +1,23 @@
-# ErisPulse-OpenAI 模块文档
+<div align="center">
+
+<img src=".github/assets/ErisPulseLogo.png" width="180" alt="ErisPulse-OpenAI" />
+
+# ErisPulse-OpenAI
+
+**OpenAI 通用接口封装模块 —— 便捷异步接口，支持流式与自定义模型。**
+
+<p>
+  <a href="https://pypi.org/project/ErisPulse-OpenAI/"><img src="https://img.shields.io/pypi/v/ErisPulse-OpenAI?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"></a>
+  <a href="https://pypi.org/project/ErisPulse-OpenAI/"><img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/ErisPulse/ErisPulse-OpenAI"><img src="https://img.shields.io/github/stars/ErisPulse/ErisPulse-OpenAI?style=for-the-badge&logo=github&color=brightgreen" alt="Stars"></a>
+  <a href="https://pepy.tech/project/ErisPulse-OpenAI"><img src="https://img.shields.io/pepy/dt/ErisPulse-OpenAI?style=for-the-badge&color=blue" alt="Downloads"></a>
+  <a href="https://github.com/ErisPulse/ErisPulse"><img src="https://img.shields.io/badge/Powered_by-ErisPulse-FF6B9D?style=for-the-badge&logo=bookstack&logoColor=white" alt="ErisPulse"></a>
+</p>
+
+</div>
+
+---
 
 ## 简介
 ErisPulse-OpenAI 是一个 OpenAI 通用接口的封装模块，提供了便捷的异步接口来与 OpenAI API 交互。
