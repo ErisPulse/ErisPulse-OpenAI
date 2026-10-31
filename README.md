@@ -1,18 +1,18 @@
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [Русский](README.ru.md)
+
 <div align="center">
 
-<img src=".github/assets/ErisPulseLogo.png" width="180" alt="ErisPulse-OpenAI" />
+<img src="https://raw.githubusercontent.com/ErisPulse/ErisPulse/main/.github/assets/ErisPulseLogo.png" width="180" alt="ErisPulse-OpenAI" />
 
 # ErisPulse-OpenAI
 
-**OpenAI 通用接口封装模块 —— 便捷异步接口，支持流式与自定义模型。**
+**Unified OpenAI-compatible API wrapper module for ErisPulse**
 
 <p>
   <a href="https://pypi.org/project/ErisPulse-OpenAI/"><img src="https://img.shields.io/pypi/v/ErisPulse-OpenAI?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"></a>
   <a href="https://pypi.org/project/ErisPulse-OpenAI/"><img src="https://img.shields.io/badge/Python-3.10+-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
-  <a href="https://github.com/ErisPulse/ErisPulse-OpenAI"><img src="https://img.shields.io/github/stars/ErisPulse/ErisPulse-OpenAI?style=for-the-badge&logo=github&color=brightgreen" alt="Stars"></a>
-  <a href="https://pepy.tech/project/ErisPulse-OpenAI"><img src="https://img.shields.io/pepy/dt/ErisPulse-OpenAI?style=for-the-badge&color=blue" alt="Downloads"></a>
-  <a href="https://github.com/ErisPulse/ErisPulse"><img src="https://img.shields.io/badge/Powered_by-ErisPulse-FF6B9D?style=for-the-badge&logo=bookstack&logoColor=white" alt="ErisPulse"></a>
+  <a href="https://github.com/ErisPulse/ErisPulse/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"></a>
+  <img src="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/badges/module.svg" alt="ErisPulse">
 </p>
 
 </div>
