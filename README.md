@@ -6,7 +6,7 @@
 
 # ErisPulse-OpenAI
 
-**Unified OpenAI-compatible API wrapper module for ErisPulse**
+**ErisPulse 的 OpenAI 兼容接口统一封装模块**
 
 <p>
   <a href="https://pypi.org/project/ErisPulse-OpenAI/"><img src="https://img.shields.io/pypi/v/ErisPulse-OpenAI?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"></a>
